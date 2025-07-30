@@ -657,10 +657,13 @@ function XBogus(Aas_str){
 }
 
 // 测试
-function test(n1){
+function sign(n1){
   l = window.kkk(84465)
     , g = window.kkk.n(l);
   return XBogus(_0x37c272(1, true, 0, null, g()(n1.substring(1))))
 }
 
+module.exports = {
+  sign
+}
 // console.log(test('7212102135369009981'))
